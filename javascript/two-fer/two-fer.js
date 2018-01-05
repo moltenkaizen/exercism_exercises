@@ -6,8 +6,10 @@ TwoFer.prototype.twoFer = function (who) {
   // in some way. In this example, it is just
   // returned, but your solution will have to
   // use a conditional.
-  var name = who || 'you';
-  return 'One for ' + name + ', one for me.';
+  // var name = who || 'you';
+  // return 'One for ' + name + ', one for me.';
+  let name = who || 'you';
+  return `One for ${name}, one for me.`
 };
 
 module.exports = TwoFer;
